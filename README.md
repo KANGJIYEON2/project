@@ -112,12 +112,23 @@
 
 ## 📦 폴더 구조
 
-```
+```text
 project/
-├── README.md                       ← (이 파일) 6개 프로젝트 총정리 · 네비게이션
-├── susemi/            · jongsose-helper/   · jangbu-doctor/      ← 세무·회계 도메인
-├── ehs-compliance-chatbot/  · F2A/         · netscope-ai/        ← AI 플랫폼·인프라
-│   └── README.md  +  highlights/   ← 각 프로젝트: 요약·아키텍처·코드 하이라이트 표
+├── README.md                      # (이 파일) 6개 프로젝트 총정리 · 네비게이션
+│
+├── 세무·회계 도메인
+│   ├── susemi/
+│   ├── jongsose-helper/
+│   └── jangbu-doctor/
+│
+├── AI 플랫폼·인프라
+│   ├── ehs-compliance-chatbot/
+│   ├── F2A/
+│   └── netscope-ai/
+│
+└── <각 프로젝트 폴더>
+    ├── README.md                  # 요약 · 아키텍처 · 코드 하이라이트 표
+    └── highlights/                # 대표 코드 발췌 (실제 운영 코드)
 ```
 
 <br>
