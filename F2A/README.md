@@ -3,7 +3,7 @@
 > **병원/의원 환자 리뷰(네이버 플레이스 등)를 LLM 으로 자동 분류해 운영 개선 인사이트를 주는 시스템.**
 > 리뷰 한 건을 category·severity(P0~P3)·담당팀으로 triage 하되, **PII 마스킹·구조화 출력·비용 추적**을 프로덕션 수준으로 갖췄습니다.
 
-🔗 **라이브**: https://f2a.team-ieum.com (대시보드 7페이지 / API Key 데모 시 별도 제공)
+🔗 **라이브**: https://f2a.team-ieum.com (대시보드 7페이지 / 로그인 화면 **"데모 둘러보기"** → 키 없이 읽기 전용 탐색)
 
 ---
 
@@ -46,7 +46,7 @@ CSV 업로드 / API 단건 / 배치
 ## 기술 스택
 - **Backend**: FastAPI · Python 3.13 · SQLModel + Alembic · PostgreSQL 15
 - **LLM**: OpenAI + Anthropic (gpt-4o-mini 기본, claude-haiku-4-5 등) · 구조화 출력
-- **인증**: API Key(scope: admin/read/ingest) · 평문 미저장, **sha256 해시만**
+- **인증**: API Key(scope: admin/read/ingest) · 평문 미저장, **sha256 해시만** · **공개 데모는 read 전용 키로 키 없이 열람**
 - **Frontend**: Next.js 15 · App Router · Tailwind (대시보드 7페이지)
 - **운영**: 앱 내장 스케줄러(감사로그 정리·P0 스파이크 알림) · 평가 인프라(`evals`)
 

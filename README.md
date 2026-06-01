@@ -52,7 +52,7 @@
 | susemi · jongsose · jangbu | 로그인 없이 바로 체험 (jongsose 는 1회 체험 게이트) |
 | netscope | `alice@demo.io` / `bob@demo.io` / `carol@demo.io` · PW `Demo1234!` (테넌트별 데이터 분리) |
 | ehs | 회원가입(회사 등록) → admin 권한으로 전체 기능 |
-| F2A | 대시보드 진입에 API Key 필요 — **데모 시 별도 제공** |
+| F2A | 로그인 화면 **"데모 둘러보기"** 클릭 → 키 없이 읽기 전용 탐색 (관리 기능은 API Key 필요) |
 
 <br>
 
